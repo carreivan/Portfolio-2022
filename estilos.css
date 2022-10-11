@@ -178,7 +178,7 @@ html{
     font-size: 30px;
     margin-bottom: 10px;
 }
-.sobremi button{
+.sobremi button {
     cursor: pointer;
     background-color: transparent;
     border: 2px solid #fff;
@@ -201,6 +201,11 @@ html{
     z-index: -1;
     transition: 1s;
 }
+.curriculum-pdf{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+} 
 .sobremi button:hover .overlay{
     width: 100%;
 }
