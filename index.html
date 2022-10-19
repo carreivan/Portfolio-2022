@@ -18,16 +18,16 @@
             </div>
             <nav id="nav" >
                 <ul>
-                    <li><a href="#inicio">INICIO</a></li>
-                    <li><a href="#sobremi">SOBRE MI</a></li>
-                    <li><a href="#skills">SKILLS</a></li>
-                    <li><a href="#curriculum">EDUCACIÓN</a></li>
-                    <li><a href="#portfolio">PORTFOLIO</a></li>
-                    <li><a href="#contacto">CONTACTO</a></li>
-                    <li><a href="#">IDIOMA</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">EDUCACIÓN</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    <!-- <li><a href="#">IDIOMA</a></li> -->
                 </ul>
             </nav>
-            <div class="nav-responsive">
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </header>
@@ -42,9 +42,9 @@
             <h1>IVÁN CARREÑO</h1>
             <h2>Desenvolvedor Web</h2>
             <div class="redes">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a target="_blank" href="https://www.facebook.com/ivan.carreno.5872" ><i class="fa-brands fa-facebook-f"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/iv%C3%A1n-jes%C3%BAs-carre%C3%B1o-aguilera-b1505b18a"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a target="_blank" href="https://github.com/carreivan"><i class="fa-brands fa-github"></i></a>
             </div>
         </div>
     </section>
@@ -140,7 +140,7 @@
                             <span>Javascript</span>
                             <div class="barra-skill">
                                 <div class="progreso ">
-                                    <span>65%</span>
+                                    <span>70%</span>
                                 </div>
                             </div>
                         </div>
@@ -148,7 +148,7 @@
                             <span>HTML5 & CSS3</span>
                             <div class="barra-skill">
                                 <div class="progreso">
-                                    <span>75%</span>
+                                    <span>85%</span>
                                 </div>
                             </div>
                         </div>
@@ -156,7 +156,7 @@
                             <span>Git</span>
                             <div class="barra-skill">
                                 <div class="progreso">
-                                    <span>70%</span>
+                                    <span>80%</span>
                                 </div>
                             </div>
                         </div>
@@ -164,7 +164,7 @@
                             <span>React Js</span>
                             <div class="barra-skill">
                                 <div class="progreso">
-                                    <span>60%</span>
+                                    <span>65%</span>
                                 </div>
                             </div>
                         </div>
@@ -172,7 +172,7 @@
                             <span>Sqlite3</span>
                             <div class="barra-skill">
                                 <div class="progreso">
-                                    <span>50%</span>
+                                    <span>70%</span>
                                 </div>
                             </div>
                         </div>
@@ -180,7 +180,7 @@
                             <span>Node Js</span>
                             <div class="barra-skill">
                                 <div class="progreso">
-                                    <span>50%</span>
+                                    <span>65%</span>
                                 </div>
                             </div>
                         </div>
@@ -268,7 +268,7 @@
                         <h4>Curso de Introducción al Desarrollo Web: HTML y CSS (1/2)</h4>
                         <span class="casa">Google & Instituto de Economia Internacional</span>
                         <span class="fecha">Agosto-2018 - 40Hrs</span>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos in incidunt quas dolor perferendis nulla deleniti eveniet optio illum voluptatibus alias soluta, illo harum quos natus exercitationem excepturi debitis rem?</p>
+                        <p  class="parrafo">Historia de la web, como funciona la web, como se escribe una web y su publicacion. </p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -277,7 +277,7 @@
                         <h4>Programacion Web Full Stack</h4>
                         <span class="casa">Toti</span>
                         <span class="fecha"> Agosto-2022 - 133Hrs</span>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos in incidunt quas dolor perferendis nulla deleniti eveniet optio illum voluptatibus alias soluta, illo harum quos natus exercitationem excepturi debitis rem?</p>
+                        <p  class="parrafo">Logica de programación, Git, Html5, Css3, Javascript, React, Api Rest, Sqlite3, Node, Metolodogias Agiles.</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -286,7 +286,7 @@
                         <h4>Diseño Web Professional</h4>
                         <span class="casa">Carlos Esparza & Udemy</span>
                         <span class="fecha">Junio-2019 - 49Hrs </span>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos in incidunt quas dolor perferendis nulla deleniti eveniet optio illum voluptatibus alias soluta, illo harum quos natus exercitationem excepturi debitis rem?</p>
+                        <p  class="parrafo">Html5, Css3, Figma, Sass, Responsive Design, Javascript, Jquery, Bootstrap, Wordpress, Git, Alojamiento Web. </p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -298,7 +298,7 @@
                         <h4>Curso de Introducción al Desarrollo Web: HTML y CSS (2/2)</h4>
                         <span class="casa">Google & Instituto de Economia Internacional</span>
                         <span class="fecha">Septiembre-2018 - 40Hrs</span>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos in incidunt quas dolor perferendis nulla deleniti eveniet optio illum voluptatibus alias soluta, illo harum quos natus exercitationem excepturi debitis rem?</p>
+                        <p class="parrafo">Como se define la presentacion de una pagina web, presentacion de una pagina web, maquetación web.</p>
                         
                         <div class="conectord">
                             <div class="circulod"></div>
@@ -308,7 +308,7 @@
                         <h4>Universidad Desarrollo Web Javascript</h4>
                         <span class="casa">Ubaldo Acosta & Udemy</span>
                         <span class="fecha"> Septiembre-2022 - 30,5 Hrs</span>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos in incidunt quas dolor perferendis nulla deleniti eveniet optio illum voluptatibus alias soluta, illo harum quos natus exercitationem excepturi debitis rem?</p>
+                        <p class="parrafo">Html5, Css3, Javascript, TypeScript, Angular con TypeScript.</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
@@ -317,7 +317,14 @@
                         <h4>Analisis de Sistemas</h4>
                         <span class="casa">Universidad cruzeiro do sul</span>
                         <span class="fecha">2022 - 2024</span>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos in incidunt quas dolor perferendis nulla deleniti eveniet optio illum voluptatibus alias soluta, illo harum quos natus exercitationem excepturi debitis rem?</p>
+                        <p  class="parrafo">Introducción a la computación, Sistemas Operativos, Programación de computadores, Estadistica, </p>
+                            
+                        <span id="hideText" class="hide">
+                            
+                            <p>Arquitectura de los Computadores, Matematica Aplicada, Modelado de Datos,Programación Orientada a Objetos, Programación Web, Tecnica para Desarrollo de Algoritmos (En Curso).</p>
+                        </span>
+                        <button class="leerMas" id="hideText_btn">Leer Más</button> 
+                        
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
@@ -335,28 +342,28 @@
                     <img src="img/12.png" alt="">
                     <div class="overlay">
                         <h3>Aplicacion Presupuesto</h3>
-                        <p>Fotografia</p>
+                        <p>Html-Css-Javascript</p>
                     </div>
                     </div>
                     <div class="proyecto">
                         <img src="img/11.png" alt="">
                         <div class="overlay">
                             <h3>Clon Netflix</h3>
-                            <p>Fotografia</p>
+                            <p>Html-Css-Javascript</p>
                         </div>
                         </div>
                         <div class="proyecto">
                             <img src="img/13.png" alt="">
                             <div class="overlay">
                                 <h3>Pagina de comida</h3>
-                                <p>Fotografia</p>
+                                <p>React-Node-sqlite</p>
                             </div>
                             </div>
                             <div class="proyecto">
-                                <img src="img/13.png" alt="">
+                                <img src="img/peliculas.png" alt="">
                                 <div class="overlay">
-                                    <h3>Pagina de comida</h3>
-                                    <p>Fotografia</p>
+                                    <h3>Peliculas Destacadas</h3>
+                                    <p>Api</p>
                                 </div>
                                 </div>
                 </div>
@@ -405,12 +412,12 @@
                 <i class="fa-solid fa-angles-up"></i>
             </a>
             <div class="redes">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a target="_blank" href="https://www.facebook.com/ivan.carreno.5872"><i class="fa-brands fa-facebook-f"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/iv%C3%A1n-jes%C3%BAs-carre%C3%B1o-aguilera-b1505b18a"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a target="_blank" href="https://github.com/carreivan"><i class="fa-brands fa-github"></i></a>
             </div>
         </footer>
 
-
+<script src="script.js"></script>
 </body>
 </html>

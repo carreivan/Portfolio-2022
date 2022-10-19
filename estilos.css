@@ -282,7 +282,7 @@ html{
 }
 @keyframes javascript{
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 70%;}
 }
 .skills .skill .htmlcss{
     width: 0%;
@@ -291,7 +291,7 @@ html{
 }
 @keyframes htmlcss{
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 85%;}
 }
 .skills .skill .git{
     width: 0%;
@@ -300,7 +300,7 @@ html{
 }
 @keyframes git{
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 80%;}
 }
 .skills .skill .react{
     width: 0%;
@@ -309,7 +309,7 @@ html{
 }
 @keyframes react{
     0%{width: 0%;}
-    100%{width: 60%;}
+    100%{width: 65%;}
 }
 .skills .skill .sqlite{
     width: 0%;
@@ -318,7 +318,7 @@ html{
 }
 @keyframes sqlite{
     0%{width: 0%;}
-    100%{width: 50%;}
+    100%{width: 70%;}
 }
 .skills .skill .node{
     width: 0%;
@@ -327,7 +327,7 @@ html{
 }
 @keyframes node{
     0%{width: 0%;}
-    100%{width: 50%;}
+    100%{width: 65%;}
 }
 .skills .skill .figma{
     width: 0%;
@@ -390,7 +390,7 @@ html{
 }
 @keyframes capacidad{
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 90%;}
 }
 .skills .skill .adaptacion{
     width: 0%;
@@ -408,7 +408,7 @@ html{
 }
 @keyframes orientacion{
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width:100%;}
 }
                     /*SECCION CURRICULUM*/
 
@@ -427,10 +427,36 @@ html{
     text-align: center;
     padding: 20px 0;
 }
+
 .curriculum .fila{
     display: flex;
     justify-content: space-between;
+    height: auto;
 }
+
+.hide{
+    display: none;
+}   
+.show{
+    display: flex;
+}
+#hideText_btn{
+    border-radius: 5px;
+    color: #000;
+    background:#1cb698;
+    font-size: 16px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.leerMas:hover{
+    background: #1cb698;
+    color: #fff;
+}
+
 .curriculum .fila .col{
     width: 49%;
     padding: 0 20px;
@@ -518,10 +544,10 @@ html{
     position: relative;
     bottom: 4px;
 }
-.curriculum .item{
+/* .curriculum .item{
     max-height: 300px;
     
-}
+} */
 
 /*SECCION PORTFOLIO*/
 .portfolio{
@@ -743,7 +769,7 @@ footer .arriba{
     }
 
 }
-@media screen and (max-width:700px){
+@media screen and (max-width:768px){
     .sobremi .fila{
         display: block;
     }
@@ -788,4 +814,16 @@ footer .arriba{
         width: 100%;
     }
     
+}
+@media screen and (max-width:412px){
+    .contacto .col .info{
+        position: relative;
+        top: 40%;
+        background-color: #252a2e;
+        padding: 20px;
+        max-width: 250px;
+        font-size: 10px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
 }
